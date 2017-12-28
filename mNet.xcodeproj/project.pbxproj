@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0543E84A1FF56DA8007B95D2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0543E8491FF56DA8007B95D2 /* Login.storyboard */; };
+		0543E84D1FF56DDE007B95D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543E84C1FF56DDE007B95D2 /* LoginViewController.swift */; };
+		0543E8501FF583B2007B95D2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543E84F1FF583B2007B95D2 /* DashboardViewController.swift */; };
+		0543E8551FF58470007B95D2 /* DashboardMyAppsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0543E8541FF58470007B95D2 /* DashboardMyAppsTableViewCell.swift */; };
 		5E1C498D1FEA4455007CE624 /* CustomBrownTextColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C498C1FEA4455007CE624 /* CustomBrownTextColorLabel.swift */; };
 		5E1C498F1FEA4468007CE624 /* CustomBlueTextColorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C498E1FEA4468007CE624 /* CustomBlueTextColorLabel.swift */; };
 		5E1C49921FEA45F6007CE624 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1C49911FEA45F6007CE624 /* Constants.swift */; };
@@ -34,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0543E8491FF56DA8007B95D2 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0543E84C1FF56DDE007B95D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0543E84F1FF583B2007B95D2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		0543E8541FF58470007B95D2 /* DashboardMyAppsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMyAppsTableViewCell.swift; sourceTree = "<group>"; };
 		5E1C498C1FEA4455007CE624 /* CustomBrownTextColorLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBrownTextColorLabel.swift; sourceTree = "<group>"; };
 		5E1C498E1FEA4468007CE624 /* CustomBlueTextColorLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlueTextColorLabel.swift; sourceTree = "<group>"; };
 		5E1C49911FEA45F6007CE624 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -73,6 +81,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0543E84B1FF56DBF007B95D2 /* Login Module */ = {
+			isa = PBXGroup;
+			children = (
+				0543E8561FF585C2007B95D2 /* Views */,
+				0543E8521FF58442007B95D2 /* Data Controller */,
+				0543E8511FF58436007B95D2 /* View Controllers */,
+			);
+			name = "Login Module";
+			sourceTree = "<group>";
+		};
+		0543E84E1FF58382007B95D2 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0543E8531FF58448007B95D2 /* Views */,
+				0543E8571FF585C7007B95D2 /* Data Controller */,
+				0543E8581FF585D1007B95D2 /* View Controllers */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		0543E8511FF58436007B95D2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0543E84C1FF56DDE007B95D2 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0543E8521FF58442007B95D2 /* Data Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Controller";
+			sourceTree = "<group>";
+		};
+		0543E8531FF58448007B95D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0543E8541FF58470007B95D2 /* DashboardMyAppsTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0543E8561FF585C2007B95D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0543E8571FF585C7007B95D2 /* Data Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Controller";
+			sourceTree = "<group>";
+		};
+		0543E8581FF585D1007B95D2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0543E84F1FF583B2007B95D2 /* DashboardViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		5E1C498B1FEA442C007CE624 /* Custom View Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +197,8 @@
 				5E1C499E1FEA845B007CE624 /* Base classes */,
 				5E1C499B1FEA8072007CE624 /* Extensions */,
 				5E1C498B1FEA442C007CE624 /* Custom View Classes */,
+				0543E84E1FF58382007B95D2 /* Dashboard */,
+				0543E84B1FF56DBF007B95D2 /* Login Module */,
 				5E20CDBD1FE971FD004ACE0D /* Settings Module */,
 				5E20CDBA1FE9718F004ACE0D /* Storyboards */,
 				5E20CDB71FE96A7D004ACE0D /* Default Images */,
@@ -160,6 +235,7 @@
 		5E20CDBA1FE9718F004ACE0D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				0543E8491FF56DA8007B95D2 /* Login.storyboard */,
 				5E20CDBB1FE971A7004ACE0D /* Settings.storyboard */,
 				5E20CD9B1FE952BE004ACE0D /* LaunchScreen.storyboard */,
 			);
@@ -272,6 +348,7 @@
 				5E20CDB61FE962F7004ACE0D /* SanFranciscoDisplay-Ultralight.otf in Resources */,
 				5E20CDBC1FE971A7004ACE0D /* Settings.storyboard in Resources */,
 				5E20CDB11FE962EA004ACE0D /* SanFranciscoDisplay-Light.otf in Resources */,
+				0543E84A1FF56DA8007B95D2 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1C49961FEA4EB8007CE624 /* EmailPreferencesViewController.swift in Sources */,
+				0543E8501FF583B2007B95D2 /* DashboardViewController.swift in Sources */,
+				0543E8551FF58470007B95D2 /* DashboardMyAppsTableViewCell.swift in Sources */,
 				5E1C49941FEA494B007CE624 /* PrivacySettingsViewController.swift in Sources */,
 				5E1C49A01FEA847B007CE624 /* BaseViewController.swift in Sources */,
 				5E1C498D1FEA4455007CE624 /* CustomBrownTextColorLabel.swift in Sources */,
@@ -293,6 +372,7 @@
 				5E1C499D1FEA80A1007CE624 /* ViewBorder.swift in Sources */,
 				5E1C49981FEA73F8007CE624 /* AboutMeViewController.swift in Sources */,
 				5E1C49921FEA45F6007CE624 /* Constants.swift in Sources */,
+				0543E84D1FF56DDE007B95D2 /* LoginViewController.swift in Sources */,
 				5E1C49A21FEA84F2007CE624 /* CustomerBrownTextColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
